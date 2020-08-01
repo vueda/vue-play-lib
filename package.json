@@ -1,7 +1,6 @@
 {
   "name": "vue-play-lib",
   "version": "0.1.0",
-  "private": true,
   "author": {
     "name": "Vinicius Ueda",
     "email": "vnsueda@gmail.com"
@@ -14,6 +13,10 @@
   },
   "main": "dist/vue-play-lib.common.js",
   "typings": "src/main.ts",
+  "files": [
+    "dist/*",
+    "src/main.ts"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
