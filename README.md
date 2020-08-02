@@ -41,8 +41,9 @@ The <code>"typings": "src/lib.ts"</code> entry is to provide the autocomplete in
 
 ## Project setup
 
+- Clone/Download the project.
 - Install NodeJS.
-- Run <code>npm install</code> to install de dependencies.
+- Run <code>npm install</code> to install the dependencies.
 
 ## Developing your components
 
