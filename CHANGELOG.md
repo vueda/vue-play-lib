@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/vueda/vue-play-lib/compare/v1.0.1...v1.0.2) (2020-08-02)
+
+
+### Bug Fixes
+
+* lint ([0806f85](https://github.com/vueda/vue-play-lib/commit/0806f85bcfccdd723cfea69a269551ec137bc8be))
+* lint ([e4dd33a](https://github.com/vueda/vue-play-lib/commit/e4dd33afb8546a06bf93a3023d0e5c3aa12bb68b))
+* test ([4373d03](https://github.com/vueda/vue-play-lib/commit/4373d03e093bcd56986e10b962f2221d1b815ea4))
+* tests ([b1a5dc5](https://github.com/vueda/vue-play-lib/commit/b1a5dc58fb29e6bd2888ab77ad8d8d097734e774))
+
 ## [1.0.1](https://github.com/vueda/vue-play-lib/compare/v1.0.0...v1.0.1) (2020-08-02)
 
 
