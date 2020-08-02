@@ -1,9 +1,9 @@
-name: Status Checks
+name: PR Checks
 on:
   pull_request:
     types: [assigned, opened, synchronize, reopened]
 jobs:
-  build:
+  pr-checks:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
