@@ -1,6 +1,6 @@
 {
   "name": "vue-play-lib",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Vinicius Ueda",
     "email": "vnsueda@gmail.com"
@@ -9,8 +9,7 @@
     "dev": "vue-cli-service serve src/playground/main.ts",
     "build": "vue-cli-service build --target lib --name vue-play-lib src/lib.ts && rm ./dist/demo.html",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "build:all": "npm run lint && npm run test:unit && npm run build"
+    "lint": "vue-cli-service lint --no-fix --max-warnings 0"
   },
   "main": "dist/vue-play-lib.common.js",
   "typings": "src/lib.ts",
