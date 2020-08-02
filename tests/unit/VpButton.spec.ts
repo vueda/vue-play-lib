@@ -9,7 +9,7 @@ describe('VpButton.vue', () => {
 
     expect(text.text()).toContain('0');
     await button.trigger('click');
-    expect(text.text()).toContain('3');
+    expect(text.text()).toContain('1');
     expect(wrapper.emitted().click?.length).toBe(1);
   });
 });
