@@ -7,14 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
-    - name: Install and build
-      run: |
-        npm install
-        npm run build:all
-    - name: Run status checks
+    - name: Install
+      run: npm ci
+    - name: Lint
+      run: npm run lint
+    - name: Test
+      run: npm run test:unit
+    - name: Checks
       run: node checks
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
