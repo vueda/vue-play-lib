@@ -6,22 +6,25 @@
     "email": "vnsueda@gmail.com"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-play-lib src/main.ts",
+    "dev": "vue-cli-service serve src/playground/main.ts",
+    "build": "vue-cli-service build --target lib --name vue-play-lib src/lib.ts && rm ./dist/demo.html",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "main": "dist/vue-play-lib.common.js",
-  "typings": "src/main.ts",
+  "typings": "src/lib.ts",
   "files": [
     "dist/*",
-    "src/main.ts"
+    "src/builder/",
+    "src/components/",
+    "src/styles/"
   ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^8.4.2"
+    "vue-property-decorator": "^8.4.2",
+    "vuetify": "^2.3.7"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
@@ -35,16 +38,17 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^1.0.3",
+    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.12.0",
+    "fibers": "^5.0.0",
     "prettier": "^1.19.1",
+    "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@vueda"
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.6.0"
   }
 }

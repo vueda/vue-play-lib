@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ count }}</p>
-    <button class="my-button" @click="increment">+</button>
+    <v-btn class="my-button" @click="increment">+</v-btn>
   </div>
 </template>
 
@@ -19,7 +19,9 @@ export default class VpButton extends Vue {
   }
 }
 </script>
-<style lang="sass" scoped>
-.my-button
-  color : red;
+
+<style lang="scss" scoped>
+.my-button {
+  color: $primary !important;
+}
 </style>
