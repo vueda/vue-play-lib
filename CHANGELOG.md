@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/vueda/vue-play-lib/compare/v1.0.0...v1.0.1) (2020-08-02)
+
+
+### Bug Fixes
+
+* skip ci on tag commit ([74e6470](https://github.com/vueda/vue-play-lib/commit/74e6470c5c765e89e5196dee9322f201a58f9419))
+* token ([fc4e0c7](https://github.com/vueda/vue-play-lib/commit/fc4e0c7bdfc570541e7f27bcf2c2d80c0cf33b29))
+
 # 1.0.0 (2020-08-02)
 
 
