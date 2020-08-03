@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/vueda/vue-play-lib/compare/v1.0.2...v1.0.3) (2020-08-03)
+
+
+### Bug Fixes
+
+* remove unused checks ([526b8d7](https://github.com/vueda/vue-play-lib/commit/526b8d7ad09d88092bb6fc63eec29d5f2deff933))
+
 ## [1.0.2](https://github.com/vueda/vue-play-lib/compare/v1.0.1...v1.0.2) (2020-08-02)
 
 
