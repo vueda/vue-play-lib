@@ -16,7 +16,5 @@ jobs:
       run: npm run lint
     - name: Test
       run: npm run test:unit
-    - name: Checks
-      run: node checks
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
